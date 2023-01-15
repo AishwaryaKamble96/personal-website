@@ -7,16 +7,28 @@ body {
 }
 
 main {
-  margin: 20px;
+  margin: 50px, 10px, 50px, 10px;
   padding: 30px;
-  background-color: bisque;
+  background-color: rgb(241, 239, 235);
+  position: relative;
+}
+
+.headerofpage {
+  margin: auto;
+  position: fixed;
+  top: 0px;
+  z-index: 0;
 }
 img {
   margin-left: 400px;
   border-radius: 25px;
+  position: fixed;
+  top: 1px;
+  right: 10px;
 }
 
-article {
+section {
+  margin: 50px 0 30px 0;
   padding: 20px;
 }
 
@@ -33,7 +45,9 @@ p {
   margin-left: 50px;
 }
 
-#nav {
+.nav {
   border: 10px;
   padding: 10px;
+  display: flex;
+  align-items: flex-start;
 }
