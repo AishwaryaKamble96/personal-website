@@ -4,31 +4,33 @@
 
 body {
   background-color: rgb(228, 199, 160);
+  margin: 30px;
 }
 
 main {
-  margin: 50px, 10px, 50px, 10px;
-  padding: 30px;
+  padding: 100px;
   background-color: rgb(241, 239, 235);
   position: relative;
 }
 
 .headerofpage {
-  margin: auto;
   position: fixed;
-  top: 0px;
-  z-index: 0;
+  top: 10px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
 }
+
 img {
+  width: 130px;
   margin-left: 400px;
   border-radius: 25px;
-  position: fixed;
-  top: 1px;
-  right: 10px;
+  /* position: absolute;
+  top: 10px;
+  left: 0px; */
 }
 
 section {
-  margin: 50px 0 30px 0;
   padding: 20px;
 }
 
@@ -36,18 +38,26 @@ p {
   line-height: 1.2;
 }
 
-.name {
-  font-weight: 300;
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.title {
+  font-weight: 300px;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 30px;
-  border-bottom: 3px solid black;
   margin-left: 50px;
 }
 
 .nav {
-  border: 10px;
-  padding: 10px;
+  border-bottom: 5px solid rgb(240, 203, 203);
+  border-top: 5px solid rgb(240, 203, 203);
   display: flex;
-  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.nav-list {
+  padding: 5px 14px;
 }
